@@ -7,6 +7,7 @@
   --ferst-background-color: #e5e5e5;
   --second-background-color: #f5f4fa;
   --background-section-color: #2f303a;
+  --logo-color: #000000;
 }
 /* 
     цвет оснвного текста + адрес #757575;
@@ -65,10 +66,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #000000;
+  color: var(--logo-color);
 }
 .link-logo:visited {
-  color: #000000;
+  color: var(--logo-color);
 }
 .logo {
   color: var(--accent-color);
@@ -312,10 +313,15 @@ body {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  padding-bottom: 20px;
+
   color: var(--main-text-color);
   font-weight: 400;
   font-size: 16px;
+}
+.card-deckription {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
   background-color: var(--main-title-color);
   border: 1px solid #eeeeee;
 }
@@ -327,9 +333,7 @@ body {
   margin-bottom: 0px;
 }
 .portfolio-card .card-title {
-  margin-top: 20px;
   margin-bottom: 4px;
-  margin-left: 24px;
   color: var(--title-color);
   font-weight: 700;
   font-size: 18px;
@@ -338,7 +342,6 @@ body {
 .portfolio-card-text {
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 24px;
   line-height: 30px;
 }
 /* portfolio button style */
