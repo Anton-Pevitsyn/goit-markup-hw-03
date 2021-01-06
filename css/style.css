@@ -8,6 +8,8 @@
   --second-background-color: #f5f4fa;
   --background-section-color: #2f303a;
   --logo-color: #000000;
+  --address-color: rgba(255, 255, 255, 0.6);
+  --partfolio-border-color: #eeeeee;
 }
 /* 
     цвет оснвного текста + адрес #757575;
@@ -326,7 +328,7 @@ body {
   padding-bottom: 20px;
   padding-left: 24px;
   background-color: var(--main-title-color);
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--partfolio-border-color);
 }
 
 .portfolio-card:nth-child(3n) {
@@ -377,6 +379,6 @@ footer {
 }
 
 .footer-address a {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-color);
 }
 /* footer style */
